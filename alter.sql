@@ -21,4 +21,4 @@ ALTER TABLE products
 ADD CONSTRAINT price_check CHECK (price > 2000 AND price < 100000);
 
 ALTER TABLE products
-	DROP constraint price_check;
+	DROP constraint price_check; 

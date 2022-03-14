@@ -1,0 +1,1 @@
+SELECT id, upper(name) up, lower(name) low, length(name) length from products

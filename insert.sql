@@ -6,4 +6,4 @@ insert into products
 
 values 
 
-(4, "eko", 10000, 3)     
+(3, "ega", 20000, 2)     

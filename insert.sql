@@ -1,3 +1,6 @@
+insert into admin(first_name, last_name) select name, last_name 
+from products as p, admin as a where p.id = (1) and a.id = (1);
+
 insert into admin(first_name, last_name) values ('fahmi', 'aziz');
 
 insert into products
@@ -6,4 +9,4 @@ insert into products
 
 values 
 
-(3, "ega", 20000, 2)     
+(4, "eko", 10000, 3) 

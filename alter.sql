@@ -22,3 +22,10 @@ ADD CONSTRAINT price_check CHECK (price > 2000 AND price < 100000);
 
 ALTER TABLE products
 	DROP constraint price_check; 
+    
+alter table products
+add fulltext product_search (name, description);
+
+alter table products_searchs
+
+drop index product

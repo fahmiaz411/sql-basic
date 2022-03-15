@@ -1,6 +1,6 @@
 update products 
-set category = 'Makanan'
-where id != 1;
+set description = 'Mie Ayam Rusuk'
+where id = 3;
 
 update products
 set price = price + 500

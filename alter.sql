@@ -1,4 +1,7 @@
 alter table products
+add primary key (id);
+
+alter table products 
 add column category enum 
 ('Makanan','Minuman','Lain-Lain')
 after name,
